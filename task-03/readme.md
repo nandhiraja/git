@@ -48,7 +48,22 @@ PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task
         bf99de1 refactor: Align the console outputs
 
 ```
+```js
 
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git status
+        On branch main
+        Your branch is ahead of 'origin/main' by 1 commit.
+          (use "git push" to publish your local commits)
+
+        Changes not staged for commit:
+          (use "git add <file>..." to update what will be committed)
+          (use "git restore <file>..." to discard changes in working directory)
+                modified:   file-01.txt
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git restore .\file-01.txt   
+
+```
 
  ## preview
 ### Before Reset
