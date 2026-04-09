@@ -1,0 +1,30 @@
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git add .\file-01.txt
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git commit -m 'feat[Task-03]: Initial commit (No 1)'
+        [main 773683e] feat[Task-03]: Initial commit (No 1)
+         1 file changed, 1 insertion(+)
+         create mode 100644 task-03/file-01.txt
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git add .\file-01.txt 
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git commit -m 'refactor[Task-03]: Modify file commit (No 2)'
+        [main d4ab0e2] refactor[Task-03]: Modify file commit (No 2)
+         1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git add .\file-01.txt
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git commit -m 'refactor[Task-03]: Modify file commit (No 3)'
+        [main 187fbc7] refactor[Task-03]: Modify file commit (No 3)
+         1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git add .\file-01.txt
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git commit -m 'refactor[Task-03]: Modify file commit (No 4)'
+        [main ef6739f] refactor[Task-03]: Modify file commit (No 4)
+         1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-03> git log --oneline
+        187fbc7 (HEAD -> main, origin/main) refactor[Task-03]: Modify file commit (No 3)
+        d4ab0e2 refactor[Task-03]: Modify file commit (No 2)
+        773683e feat[Task-03]: Initial commit (No 1)
+        bf99de1 refactor: Align the console outputs
