@@ -1,0 +1,6 @@
+This content is written in 'main' branch
+
+Title: Simulating and Resolving Merge Conflicts 
+
+Use `git status` and `git diff` to identify and resolve the conflicting
+changes
