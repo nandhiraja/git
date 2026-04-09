@@ -1,0 +1,13 @@
+This is the document for git version controling
+
+Branch : Main
+
+git init           -> Start Git
+git status         -> See changes
+git add            -> Prepare files
+git commit         -> Save snapshot
+git log            -> See history
+git branch         -> Create parallel work
+git switch         -> Move branch
+git merge          -> Combine work
+
