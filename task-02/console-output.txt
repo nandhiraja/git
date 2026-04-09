@@ -1,0 +1,28 @@
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-02> git add .  
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-02> git commit -m "feat: Initial commit for Using .gitignore and Tracking File"
+    [main 6921e1b] feat: Initial commit for Using .gitignore and Tracking File
+     4 files changed, 43 insertions(+)
+     create mode 100644 task-02/.gitignore
+     create mode 100644 task-02/file-01.md
+     create mode 100644 task-02/file-02.md
+     create mode 100644 task-02/readme.md
+    
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-02> git status
+    On branch main
+    Your branch is ahead of 'origin/main' by 1 commit.
+      (use "git push" to publish your local commits)
+
+    nothing to commit, working tree clean
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-02> git push
+    Enumerating objects: 8, done.
+    Counting objects: 100% (8/8), done.
+    Delta compression using up to 12 threads
+    Compressing objects: 100% (6/6), done.
+    Writing objects: 100% (7/7), 1.27 KiB | 1.27 MiB/s, done.
+    Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+    remote: Resolving deltas: 100% (1/1), done.
+    To https://github.com/nandhiraja/git.git
+       d1ad3c3..6921e1b  main -> main
