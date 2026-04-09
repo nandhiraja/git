@@ -11,3 +11,12 @@ git branch         -> Create parallel work
 git switch         -> Move branch
 git merge          -> Combine work
 
+
+git push           -> Upload
+git pull           -> Download
+git reset          -> Undo commit
+git restore        -> Undo file changes
+git stash          -> Temporary save
+git rebase         -> Cleaner history
+git cherry-pick    -> Copy one commit
+git revert         -> Undo safely
