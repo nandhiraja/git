@@ -1,2 +1,4 @@
 This file is to demonstrate the git stash
 Command : git stash
+
+git stash is used to temporarily save your uncommitted changes so you can work on something else without committing.
