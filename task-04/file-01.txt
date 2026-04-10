@@ -1,3 +1,12 @@
+This content is override by 'Employee-1' branch
+
+Title: Simulating and Resolving Merge Conflicts 
+
+    Attempt to merge the branches, observe the conflict, and resolve itmanually.
+    
+    Use `git status` and `git diff` to identify and resolve the conflicting
+    changes
+
 This content is written in 'main' branch
 
 Title: Simulating and Resolving Merge Conflicts 
