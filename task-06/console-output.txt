@@ -1,0 +1,51 @@
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git add .\file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git commit -m 'feat[task-06]: Initial commit for git stash'
+        [main acae346] feat[task-06]: Initial commit for git stash
+         1 file changed, 1 insertion(+)
+         create mode 100644 task-06/file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git stash
+        Saved working directory and index state WIP on main: acae346 feat[task-06]: Initial commit for git stash
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git branch Employee-2 
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git checkout Employee-2
+        Switched to branch 'Employee-2'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git stash pop
+        Auto-merging task-06/file-01.txt
+        CONFLICT (content): Merge conflict in task-06/file-01.txt
+        On branch main
+        Your branch is ahead of 'origin/main' by 2 commits.
+          (use "git push" to publish your local commits)
+        
+        Unmerged paths:
+          (use "git restore --staged <file>..." to unstage)
+          (use "git add <file>..." to mark resolution)
+                both modified:   file-01.txt
+        
+        Untracked files:
+          (use "git add <file>..." to include in what will be committed)
+                readme.md
+        
+        no changes added to commit (use "git add" and/or "git commit -a")
+        The stash entry is kept in case you need it again.
+
+
+
+=================================================== git stash list  and git stash drop ===============================================
+
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git stash list
+        stash@{0}: WIP on main: acae346 feat[task-06]: Initial commit for git stash
+        stash@{1}: WIP on main: 187fbc7 refactor[Task-03]: Modify file commit (No 3)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git stash drop 'stash@{1}'
+        Dropped stash@{1} (e009cbf2c4c7dd04fda35e2b869bc05720130307)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-06> git stash list
+        stash@{0}: WIP on main: acae346 feat[task-06]: Initial commit for git stash
+
