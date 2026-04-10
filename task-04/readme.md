@@ -81,3 +81,7 @@ PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task
 <img width="1640" height="567" alt="Image" src="https://github.com/user-attachments/assets/720a5ee1-a271-4803-bfc3-2a2190ae5823" />
 
 <img width="1530" height="310" alt="Image" src="https://github.com/user-attachments/assets/a96a35a9-1e5d-4530-9cce-ea808a38ea74" />
+
+### conflict
+
+<img width="1644" height="565" alt="Image" src="https://github.com/user-attachments/assets/f059f200-5dde-49a1-8e06-697c87be5dd5" />
