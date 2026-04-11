@@ -59,3 +59,53 @@ PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task
 PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git branch release
 PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git checkout release
         Switched to branch 'release'
+
+
+============================================== issues ================================================================================
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git checkout main
+        Switched to branch 'main'
+        Your branch is ahead of 'origin/main' by 6 commits.
+          (use "git push" to publish your local commits)
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git merge bug-fix
+        Updating 33e267a..a1cec9e
+        Fast-forward
+         task-10/index.js | 4 ++--
+         1 file changed, 2 insertions(+), 2 deletions(-)
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git merge release
+        Merge made by the 'ort' strategy.
+         task-10/console-output.txt | 61 ++++++++++++++++++++++++++++++++
+         task-10/readme.md          | 86 ++++++++++++++++++++++++++++++++++++++++++++++
+         2 files changed, 147 insertions(+)
+         create mode 100644 task-10/console-output.txt
+         create mode 100644 task-10/readme.md
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git push
+        To https://github.com/nandhiraja/git.git
+         ! [rejected]        main -> main (fetch first)
+        error: failed to push some refs to 'https://github.com/nandhiraja/git.git'
+        hint: Updates were rejected because the remote contains work that you do not
+        hint: have locally. This is usually caused by another repository pushing to
+        hint: the same ref. If you want to integrate the remote changes, use
+        hint: 'git pull' before pushing again.
+        hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git reflog
+            e3cf63a (HEAD -> main, origin/main) HEAD@{0}: merge release: Merge made by the 'ort' strategy.
+            a1cec9e (bug-fix) HEAD@{1}: merge bug-fix: Fast-forward
+            33e267a HEAD@{2}: checkout: moving from features to main
+            065f619 (origin/features, features) HEAD@{3}: rebase (finish): returning to refs/heads/features
+            065f619 (origin/features, features) HEAD@{4}: rebase (squash): feat[task-10]: Complete features| subration and division added
+            eb3a219 HEAD@{5}: rebase (start): checkout HEAD~2
+            33e267a HEAD@{6}: checkout: moving from release to features
+            ec29723 (release) HEAD@{7}: commit: chore[task-10]: Add the document for application V1
+            33e267a HEAD@{8}: checkout: moving from main to release
+            33e267a HEAD@{9}: merge features: Fast-forward
+            fe6e539 HEAD@{10}: checkout: moving from bug-fix to main
+            a1cec9e (bug-fix) HEAD@{11}: commit: fix[task-10]: fix 'add' function | add return value for add function
+            c356492 HEAD@{12}: commit: fix[task-10]: fix feature-2 | change the operator '*' to '/'
+            33e267a HEAD@{13}: checkout: moving from features to bug-fix
+            33e267a HEAD@{14}: commit: feat[task-10]: feature-2 | create division function
+            eb3a219 HEAD@{15}: commit: feat[task-10]: feature-1 | create subraction function
+            2824b33 (feature) HEAD@{16}: checkout: moving from feature to features
+            2824b33 (feature) HEAD@{17}: commit: feat[task-10]: Add calculator functionality
