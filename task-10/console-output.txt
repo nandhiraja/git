@@ -1,0 +1,61 @@
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git add .\index.js
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git commit  -m "feat[task-10]: Add calculator functionality"
+         [feature 2824b33] feat[task-10]: Add calculator functionality
+         1 file changed, 8 insertions(+)
+         create mode 100644 task-10/index.js
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git branch features
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git checkout features 
+        Switched to branch 'features'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git add .\index.js
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git commit  -m "feat[task-10]: feature-1 |  create  subraction function"
+        [features eb3a219] feat[task-10]: feature-1 |  create  subraction function
+         1 file changed, 4 insertions(+)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git add .\index.js
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git commit  -m "feat[task-10]: feature-2 |  create division function"   
+        [features 33e267a] feat[task-10]: feature-2 |  create division function
+         1 file changed, 4 insertions(+)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git  branch bug-fix
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git  checkout  bug-fix
+        Switched to branch 'bug-fix'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git add .\index.js
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git commit  -m "fix[task-10]: fix feature-2 | change the operator '*' to '/' " 
+        [bug-fix c356492] fix[task-10]: fix feature-2 | change the operator '*' to '/'
+         1 file changed, 1 insertion(+), 1 deletion(-)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git add .\index.js                                                          
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git commit  -m "fix[task-10]: fix 'add' function | add return value for add function  "
+        [bug-fix a1cec9e] fix[task-10]: fix 'add' function | add return value for add function
+         1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git checkout main
+        Switched to branch 'main'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git merge features
+        Updating fe6e539..33e267a
+        Updating fe6e539..33e267a
+        Fast-forward
+         task-09/console-output.txt |  65 +++++++++++++++++++++++++++
+         task-09/index.js           |   5 ++-
+         task-09/readme.md          | 108 +++++++++++++++++++++++++++++++++++++++++++++
+         task-10/index.js           |  16 +++++++
+         4 files changed, 193 insertions(+), 1 deletion(-)
+         create mode 100644 task-09/console-output.txt
+         task-10/index.js           |  16 +++++++
+         4 files changed, 193 insertions(+), 1 deletion(-)
+         create mode 100644 task-09/console-output.txt
+         4 files changed, 193 insertions(+), 1 deletion(-)
+         create mode 100644 task-09/console-output.txt
+         create mode 100644 task-09/console-output.txt
+         create mode 100644 task-09/readme.md
+         create mode 100644 task-10/index.js
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git branch release
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-10> git checkout release
+        Switched to branch 'release'
