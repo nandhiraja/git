@@ -1,0 +1,65 @@
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git add  .\index.js
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git commit -m "feat[Task-09]: Add the function to perform addition | Main branch"
+            Running pre-commit checks...
+            Running unit tests...
+            ✅ All tests passed
+            ✅ Tests passed
+            [main fe6e539] feat[Task-09]: Add the function to perform addition | Main branch
+             1 file changed, 6 insertions(+)
+             create mode 100644 task-09/index.js
+            Delta compression using up to 12 threads
+            Compressing objects: 100% (3/3), done.
+            Writing objects: 100% (4/4), 407 bytes | 101.00 KiB/s, done.
+            Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+            remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+            To https://github.com/nandhiraja/git.git
+               6799e4e..fe6e539  main -> main
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git pull
+        From https://github.com/nandhiraja/git
+         * [new branch]      feature    -> origin/feature
+        Already up to date.
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git switch -c feature origin/feature
+        branch 'feature' set up to track 'origin/feature'.
+        Switched to a new branch 'feature'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git branch
+          Employee-1
+          Employee-2
+        * feature
+          main
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git add .\index.js
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git commit  -m "feat[Task-09]: Add function for Subration"
+        Running pre-commit checks...
+        Running unit tests...
+        ✅ All tests passed
+        ✅ Tests passed
+        [feature c9cfc1c] feat[Task-09]: Add function for Subration
+         1 file changed, 4 insertions(+), 1 deletion(-)
+        PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git push feature 
+        fatal: 'feature' does not appear to be a git repository
+        fatal: Could not read from remote repository.
+
+        Please make sure you have the correct access rights
+        and the repository exists.
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> git push
+        Enumerating objects: 7, done.
+        Counting objects: 100% (7/7), done.
+        Delta compression using up to 12 threads
+        Compressing objects: 100% (3/3), done.
+        Writing objects: 100% (4/4), 404 bytes | 202.00 KiB/s, done.
+        Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+        remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+        To https://github.com/nandhiraja/git.git
+           fe6e539..c9cfc1c  feature -> feature
+
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-09> 
