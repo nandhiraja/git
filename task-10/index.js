@@ -6,3 +6,7 @@ function calculator(){
 function add(a,b){
 
 }
+
+function sub(c,d){
+  return c-d
+}
