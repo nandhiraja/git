@@ -14,7 +14,7 @@ are finalized.
 - Document how Git hooks can improve code quality in collaborative projects.
 
 ```js
-// main.js
+// index.js
 function add(a, b) {
   return a + b;
 }
@@ -52,7 +52,7 @@ try {
 echo "Running pre-commit checks..."
 
 # Run unit tests
-node test.js
+node task-08/test.js
 
 # Capture exit status
 if [ $? -ne 0 ]; then
@@ -64,12 +64,34 @@ echo "✅ Tests passed. Proceeding with commit"
 exit 0
 
 ```
+## console 
 
 ```powershell
 
+\PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-08> git add .
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-08> git commit  -m "feat(JS): Add function to perfrom Addition"
+            Running pre-commit checks...
+            Running unit tests...
+            ✅ All tests passed
+            ✅ Tests passed
+            [main 4566774] feat(JS): Add function to perfrom Addition
+             3 files changed, 100 insertions(+)
+             create mode 100644 task-08/index.js
+             create mode 100644 task-08/readme.md
+             create mode 100644 task-08/test.js
+
+ PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-08> git add .\index.js
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-08> git commit  -m "refactor(JS): Change the + to / in funtion to check hooks test"
+            Running pre-commit checks...
+            Running unit tests...
+            ❌ Test failed: 2 + 2 should be 4
+            ❌ Commit blocked due to failing tests
 
 ```
 
 
 ## preview
 
+<img width="1677" height="381" alt="Image" src="https://github.com/user-attachments/assets/eaca0708-3092-409e-bf8f-608ecdc49e21" />
