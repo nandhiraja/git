@@ -1,0 +1,47 @@
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git add .\file-01.txt    
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git commit -m "feat[task-07]: Initial commit for Cherry Pick task"
+                [main 34df412] feat[task-07]: Initial commit for Cherry Pick task
+                 1 file changed, 2 insertions(+)
+                 create mode 100644 task-07/file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git checkout Employee-2
+                Switched to branch 'Employee-2'
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git add .\file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git commit -m "feat[task-07]: second commit by Employee-2"        
+                [Employee-2 a538bb6] feat[task-07]: second commit by Employee-2
+                 1 file changed, 1 insertion(+)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git add .\file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git commit -m "feat[task-07]: Third commit by Employee-2" 
+                [Employee-2 ea3de55] feat[task-07]: Third commit by Employee-2
+                 1 file changed, 3 insertions(+), 1 deletion(-)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git add .\file-01.txt
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git commit -m "feat[task-07]: fourth commit by Employee-2"
+                [Employee-2 d816ae0] feat[task-07]: fourth commit by Employee-2
+                 1 file changed, 3 insertions(+), 1 deletion(-)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git log --oneline --graph --all
+                * d816ae0 (HEAD -> Employee-2) feat[task-07]: fourth commit by Employee-2
+                * ea3de55 feat[task-07]: Third commit by Employee-2
+                * a538bb6 feat[task-07]: second commit by Employee-2
+                * 34df412 (main) feat[task-07]: Initial commit for Cherry Pick task
+
+
+PS C:\Users\nandh\OneDrive\Desktop\Presidio-space\Self-learning\Git-hub\git\task-07> git cherry-pick ea3de55
+                Auto-merging task-07/file-01.txt
+                CONFLICT (content): Merge conflict in task-07/file-01.txt
+                error: could not apply ea3de55... feat[task-07]: Third commit by Employee-2
+                hint: After resolving the conflicts, mark them with
+                hint: "git add/rm <pathspec>", then run
+                hint: "git cherry-pick --continue".
