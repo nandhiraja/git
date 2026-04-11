@@ -12,5 +12,5 @@ function sub(c,d){
 }
 
 function div(a,b){
-  return a*b
+  return a/b
 }
