@@ -10,3 +10,7 @@ function add(a,b){
 function sub(c,d){
   return c-d
 }
+
+function div(a,b){
+  return a*b
+}
